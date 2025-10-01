@@ -5,7 +5,7 @@ export async function fetchCars(filters: FilterProps): Promise<CarProps[]> {
 
   // Fetch toate mașinile de la MockAPI
   const response = await fetch(
-    `https://68bae1ae84055bce63f077d3.mockapi.io/api/v1/CarProps`
+    `https://68da95ce23ebc87faa30a6ba.mockapi.io/api/ex1/test`
   );
 
   if (!response.ok) {
